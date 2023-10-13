@@ -1,0 +1,57 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+/* Heading styles */
+.heading-class {
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid white; /* Add a bottom border */
+    background-color: #222; /* Add a background color */
+}
+
+/* To-Do List Grid */
+.todo-grid,
+.todo-input-grid {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.todo-input-grid {
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+/* Input and Button styles */
+.name-input,
+.due-date-input,
+.add-todo-button,
+.delete-todo-button {
+    font-size: 15px;
+    padding: 6px;
+}
+
+.add-todo-button,
+.delete-todo-button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.delete-todo-button {
+    background-color: darkred;
+}
